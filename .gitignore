@@ -1,1 +1,25 @@
-/target
+# Compiled files and build directory
+/target/
+
+# Remove documentation directory
+/target/doc/
+
+# Dependency directory
+**/Cargo.lock
+
+# Ignore the database file for `cargo search`
+/.cargo/
+
+# Ignore IDE and text editor directories
+.vscode/
+*.swp
+*.swo
+*.tmp
+
+# Ignore all .log and .csv files
+*.log
+*.csv
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
